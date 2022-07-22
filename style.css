@@ -1,4 +1,3 @@
-
 body{
     margin: 0;
     padding: 0;
@@ -28,9 +27,6 @@ body{
 
 .login-box .user-box{
     position: relative;
-}
-
-.login-box .user-box{
     margin: 2rem auto;
 }
 
@@ -181,8 +177,6 @@ body{
 }   
 
 .fundo-colorido{
-    width: 80%;
-    height: 80%;
     box-sizing: border-box;
 }
 
@@ -202,12 +196,25 @@ body{
 .fundo_red-right{
     position: absolute;
     bottom: 0;
-    right: -5rem;
+    right: 0;
     height: 17rem;
     width: 10rem;
     border-radius: 50%;
-
     background-color: #FF0000;
-    box-shadow: 0 0 1em 1em #FF0000;
-    filter: blur(110px);
+    box-shadow: 0 0 2em 2em #FF0000;
+    filter: blur(150px);
+}
+
+@media screen and (min-width: 1040px){
+    .login-box{
+        width: 65vw;
+    }
+
+    .login-box h2{
+        margin-bottom: 4rem;
+    }
+
+    .login-box .user-box{
+        margin-bottom: 3rem;
+    }
 }
