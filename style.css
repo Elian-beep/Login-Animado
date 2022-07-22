@@ -190,7 +190,30 @@ body{
 
     background-color: #FF0000;
     box-shadow: 0 0 1em 1em #FF0000;
-    filter: blur(110px);
+    filter: blur(150px);
+}
+.fundo_red-rigth-top{
+    position: absolute;
+    top: 6rem;
+    right: 0;
+    height: 10rem;
+    width: 1rem;
+    background-color: #5A0202;
+    border-radius: 50% 0 0 50%;
+    box-shadow: 1rem 1rem 1em 1em #5A0202;
+    filter: blur(65px);
+}
+
+.fundo_red-left-bottom{
+    position: absolute;
+    left: -4.5rem;
+    bottom: 10rem;
+    height: 10rem;
+    width: 1rem;
+    background-color: #5A0202;
+    border-radius: 0 50% 50% 0;
+    box-shadow: 1rem 1rem 1em 1em #5A0202;
+    filter: blur(65px);
 }
 
 .fundo_red-right{
@@ -198,16 +221,17 @@ body{
     bottom: 0;
     right: 0;
     height: 17rem;
-    width: 10rem;
+    width: 7rem;
     border-radius: 50%;
     background-color: #FF0000;
-    box-shadow: 0 0 2em 2em #FF0000;
+    box-shadow: 0 0 1em 1em #FF0000;
     filter: blur(150px);
 }
 
 @media screen and (min-width: 1040px){
     .login-box{
-        width: 65vw;
+        width: 32vw;
+        /* background-color: #fff; */
     }
 
     .login-box h2{
@@ -216,5 +240,36 @@ body{
 
     .login-box .user-box{
         margin-bottom: 3rem;
+    }
+
+    .fundo_red-left{
+        width: 15rem;
+        height: 22rem;
+        filter: blur(210px);
+    }
+
+    .fundo_red-rigth-top{
+        position: absolute;
+        top: 0;
+        right: 20rem;
+        height: 2rem;
+        width: 27rem;
+        filter: blur(150px);
+    }
+
+    .fundo_red-left-bottom{
+        position: absolute;
+        left: 15rem;
+        bottom: 0;
+        height: 5rem;
+        width: 27rem;
+        border-radius: 50%;
+        filter: blur(150px);
+    }
+
+    .fundo_red-right{
+        width: 15rem;
+        height: 22rem;
+        filter: blur(200px);
     }
 }
