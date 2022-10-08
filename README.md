@@ -7,7 +7,7 @@ Tela de login responsiva animada
 | :sparkles: Nome        | **Login Animado**
 | :label: Tecnologias | html, css
 | :rocket: URL         | https://login-animado.vercel.app/
-| :fire: Desafio     | https://url-do-desafio.com.br
+| :fire: Desafio     | PROJETO PESSOAL
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
